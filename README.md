@@ -5,6 +5,7 @@
 
 ### Description:
 This repository contains the code and documentation for a smart biometric heart rate sensor system developed as a capstone project. The system is designed to monitor heart rate and pulse oximetry, and it sends instant email alerts for health surveillance. It uses a MAX30102 sensor module, an Arduino Uno R3 board, an OLED LCD display, a buzzer, an LED, and an ESP-01 ESP8266 WiFi module. The system was developed by a group of students from ICCT Colleges Foundation, Inc as part of their capstone project.
+
 ### Components and Prices:
 * MAX30102 Heart Rate and Pulse Oximeter Sensor Module (https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black)
 * Arduino Uno R3 Board (https://www.makerlab-electronics.com/products/arduino-uno)
