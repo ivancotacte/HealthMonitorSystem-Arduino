@@ -3,7 +3,7 @@
 ### Capstone Title:
 "SMART BIOMETRIC HEART RATE SENSOR SYSTEM WITH INSTANT EMAIL ALERTS FOR AUGMENT HEALTH SURVEILLANCE."
 
-## Components:
+## Components and Prices:
 * MAX30102 Heart Rate and Pulse Oximeter Sensor Module (https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black)
 * Arduino Uno R3 Board (https://www.makerlab-electronics.com/products/arduino-uno)
 * 0.91 inch 128x32 IIC Oled LCD Blue LED Display Modules (https://www.makerlab-electronics.com/products/0-91-inch-128x32-iic-oled-lcd-blue-led-display-modules)
@@ -11,7 +11,7 @@
 * LED (For Visual alerting)
 * ESP-01 ESP8266 WiFi Module
 
-| Components | Price    |
+| Components | Price |
 | :---:  | :---: |
 | MAX30102 | ₱149 |
 | Arduino Uno R3 Board | ₱449 |
