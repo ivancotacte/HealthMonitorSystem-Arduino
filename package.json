@@ -1,0 +1,14 @@
+{
+  "name": "healthmonitorsystem-arduino",
+  "version": "1.0.0",
+  "description": "\"SMART BIOMETRIC HEART RATE SENSOR SYSTEM WITH INSTANT EMAIL ALERTS FOR AUGMENT HEALTH SURVEILLANCE.\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
