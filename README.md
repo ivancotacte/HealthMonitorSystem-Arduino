@@ -28,7 +28,7 @@ To achieve this, we will use the Arduino Uno R3 Board as the microcontroller, th
 | ESP-01 ESP8266 WiFi Module | ₱89 |
 | Load Sensor 50kg x4 | ₱120.00 |
 | Load Cell Amplifier HX711 | ₱50.00 |
-| Total | ₱936 |
+| Total | ₱1106.00 |
 
 ## Group Members:
 * Sherwin Kenjie Tom H. Cruz
