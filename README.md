@@ -29,7 +29,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 | MAX30102 | ₱149 |
 | Arduino Uno R3 Board | ₱449 |
 | OLED LCD 0.91″ inch l 1.3″ inch I2C LED Display Modules | ₱149 |
-| Active Buzzer | ₱50 |
+| Buzzer | ₱50 |
 | LED | ₱50 |
 | ESP-01 ESP8266 WiFi Module | ₱89 |
 | Load Sensor 50kg x4 | ₱120.00 |
