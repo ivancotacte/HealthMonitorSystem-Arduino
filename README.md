@@ -24,6 +24,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 * Load Sensor 50kg (https://www.makerlab-electronics.com/products/load-sensor-50kg)
 * Load Cell Amplifier HX711 (https://makerlab-electronics.com/products/load-cell-amplifier-hx711)
 
+| :---:  | :---: |
 | MAX30102 | ₱149 |
 | Arduino Uno R3 Board | ₱449 |
 | OLED LCD 0.91″ inch l 1.3″ inch I2C LED Display Modules | ₱149 |
