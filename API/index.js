@@ -24,6 +24,13 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
+app.post("/bpm", (req, res) => {
+  const { bpm_rate } = req.body;
+
+  console.log(bpm_rate);
+  res.send("success");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
