@@ -1,1 +1,36 @@
-<h1>Hello World!!!!!</h1>
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="row border rounded-2 p-3 bg-white shadow box-area">
+      <div class="col-md-4 rounded-2 d-flex justify-content-center align-items-center flex-column left-box"
+        style="background: #ffffff">
+        <div class="featured-image mb-3">
+          <img src="red_cross.png" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col-md-8 right-box">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <h2>Sign In</h2>
+            <p>To access your Information, please make sure you meet the following
+              requirements:</p>
+          </div>
+          <form action="/student-portal" method="POST">
+            <label for="" class="form-label"> Email address </label>
+            <div class="input-group mb-2">
+              <input type="email" name="emailAddress" class="form-control bg-light fs-6"
+                placeholder="example@example.com" />
+            </div>
+            <label for="" class="form-label"> Password </label>
+            <div class="input-group mb-3">
+              <input type="password" name="password" class="form-control bg-light fs-6"
+                placeholder="********" />
+            </div>
+            <div class="input-group mb-2">
+              <button class="btn btn-lg w-100 fs-6" style="background-color: #030067; color: #ececec;">
+                LogIn
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>

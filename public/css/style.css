@@ -3,8 +3,6 @@
   body {
     font-family: 'Poppins', sans-serif;
     padding: 20px;
-    background: url('/icct_backgroud.jpg') no-repeat center center fixed;
-    background-size: cover;
   }
   .navbar {
     border-radius: 10px;
@@ -20,7 +18,7 @@
   }
   
   .left-box img {
-    width: 160px;
+    width: 180px;
   }
   
   .left-box h2 {
