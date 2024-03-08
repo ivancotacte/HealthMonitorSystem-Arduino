@@ -1,0 +1,78 @@
+  @import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40400%3B500&display=swap%27%29%3B");
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: url('/icct_backgroud.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .navbar {
+    border-radius: 10px;
+  }
+  .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .box-area {
+    width: 800px;
+    margin-top: 10px;
+  }
+  
+  .left-box img {
+    width: 160px;
+  }
+  
+  .left-box h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+
+  .right-box {
+    padding: 40px 30px 40px 40px;
+  }
+
+  .right-box p {
+    margin-bottom: 0%;
+  }
+
+  .right-box label {
+    font-size: 16px;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+  }
+
+  .rounded-4 {
+    border-radius: 20px;
+  }
+
+  .rounded-5 {
+    border-radius: 30px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .left-box {
+      height: 100px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .left-box img {
+      width: 100%;
+    }
+
+    .right-box {
+      padding: 20px;
+    }
+
+    .right-box label {
+    font-size: 14px;
+    }
+    ::placeholder {
+      font-size: 14px;
+    }
+  }
