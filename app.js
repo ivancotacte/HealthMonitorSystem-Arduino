@@ -37,8 +37,9 @@ app.get("/register", (req, res) => {
 });
 
 app.post("/register", (req, res) => {
-    console.log(req.body);
-    res.send("Data received");
+    const { bpm_rate } = req.body;
+    console.log(bpm_rate);
+
 });
 
 
