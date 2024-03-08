@@ -42,7 +42,9 @@ app.post("/register", (req, res) => {
 });
 
 
-
+app.post('/bpm', (req, res) => {
+    console.log(req.body);
+});
 
 
 
