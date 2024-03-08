@@ -20,6 +20,7 @@
     "ejs": "^3.1.9",
     "express": "^4.18.3",
     "express-ejs-layouts": "^2.5.1",
+    "generate-password": "^1.7.1",
     "mongoose": "^8.2.1"
   }
 }
