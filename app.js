@@ -37,14 +37,14 @@ app.get("/register", (req, res) => {
 });
 
 app.post("/register", (req, res) => {
-    const { bpm_rate } = req.body;
-    console.log(bpm_rate);
-
+    console.log(req.body);
+    res.send("Data received");
 });
 
 
 app.post('/bpm', (req, res) => {
-    console.log(req.body);
+    const { bpm_rate } = req.body;
+    console.log(bpm_rate);
 });
 
 
