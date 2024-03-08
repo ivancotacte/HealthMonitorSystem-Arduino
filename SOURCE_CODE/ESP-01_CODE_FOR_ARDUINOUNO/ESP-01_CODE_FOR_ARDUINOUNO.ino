@@ -10,7 +10,7 @@ WiFiManager wifiManager;
 
 const char* httpsServer = "healthmonitorsystem-arduino.onrender.com";
 const int httpsPort = 443; 
-const int resetSwitchPin = D1;
+const int resetSwitchPin = 0;
 
 void setup() {
   Serial.begin(9600);

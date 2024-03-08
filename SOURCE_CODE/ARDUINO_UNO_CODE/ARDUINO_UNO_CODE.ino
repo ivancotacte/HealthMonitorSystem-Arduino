@@ -17,7 +17,8 @@ int beatAvg;
 #define SCREEN_HEIGHT 32
 #define OLED_RESET    -1
 
-#define LED_READY 13
+#define LED_READING 13
+#define LED_READY 11
 #define BUZZER 12
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
@@ -42,6 +43,11 @@ static const unsigned char PROGMEM logo3_bmp[] =
   0x00, 0x08, 0x10, 0x00, 0x00, 0x06, 0x60, 0x00, 0x00, 0x03, 0xC0, 0x00,  0x00, 0x01, 0x80, 0x00
 };
 
+// Define a variable to store the start time
+unsigned long startTime = 0; // Initialize to 0
+unsigned long lastPrintTime = 0; // Initialize to 0
+const unsigned long printInterval = 20000; // Interval in milliseconds (20 seconds)
+
 void setup() {  
   Serial.begin(9600);
   display.begin(SSD1306_SWITCHCAPVCC,  0x3C);
@@ -51,7 +57,7 @@ void setup() {
   particleSensor.setup();
   particleSensor.setPulseAmplitudeRed(0x0A);
 
-
+  pinMode(LED_READING, OUTPUT);
   pinMode(LED_READY, OUTPUT);
   pinMode(BUZZER, OUTPUT);
 }
@@ -59,7 +65,11 @@ void setup() {
 void loop() {
   long irValue = particleSensor.getIR();
 
-  if(irValue  > 5000) {
+  if (irValue > 5000) {
+    if (startTime == 0) { // Start the timer if not already started
+      startTime = millis();
+    }
+
     digitalWrite(LED_READY, LOW);
     display.clearDisplay();
     display.drawBitmap(50, 5, logo2_bmp, 24, 21, WHITE);
@@ -68,13 +78,24 @@ void loop() {
     if (checkForBeat(irValue) == true) {
       display.clearDisplay();
       display.drawBitmap(50, 0, logo3_bmp, 32, 32, WHITE);
-      Serial.println(beatAvg);
+
+      // Calculate elapsed time
+      unsigned long elapsedTime = millis() - startTime;
+
+      // Print heartbeat average every 20 seconds
+      if (elapsedTime >= lastPrintTime + printInterval) {
+        Serial.println(beatAvg);
+
+        lastPrintTime = elapsedTime;
+        digitalWrite(BUZZER, HIGH);
+      }
+
       display.display();
-      digitalWrite(BUZZER, HIGH);
+      digitalWrite(LED_READING, HIGH);
       delay(100);
-      digitalWrite(BUZZER, LOW);
-      long delta = millis()  - lastBeat;
-      lastBeat  = millis();
+      digitalWrite(LED_READING, LOW);
+      long delta = millis() - lastBeat;
+      lastBeat = millis();
 
       beatsPerMinute = 60 / (delta / 1000.0);
 
@@ -83,23 +104,28 @@ void loop() {
         rateSpot %= RATE_SIZE;
 
         beatAvg = 0;
-        for (byte x = 0 ; x < RATE_SIZE  ; x++)
+        for (byte x = 0; x < RATE_SIZE; x++)
           beatAvg += rates[x];
         beatAvg /= RATE_SIZE;
       }
     }
-  }
-  else if (irValue < 5000) {
+
+  } else if (irValue < 5000) {
+    startTime = 0; // Reset the timer when finger is removed
     beatAvg = 0;
+    lastPrintTime = 0; // Reset last print time
+
+    digitalWrite(BUZZER, LOW);
     digitalWrite(LED_READY, HIGH);
+
     display.clearDisplay();
-    display.setTextSize(1);                    
-    display.setTextColor(WHITE);             
-    display.setCursor(30,0);         
-    display.println("Please Place"); 
-    display.setCursor(30,10);
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.setCursor(30, 0);
+    display.println("Please Place");
+    display.setCursor(30, 10);
     display.println("your finger");
-    display.setCursor(0,25);
+    display.setCursor(0, 25);
     display.println("GROUP10 - LFSA322N002");
     display.display();
   }
