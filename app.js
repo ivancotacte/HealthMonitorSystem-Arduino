@@ -26,6 +26,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
+
+
 app.get('/login', (req, res) => {
     res.render('login', { title: 'Login' });
 });
@@ -33,6 +35,23 @@ app.get('/login', (req, res) => {
 app.get("/register", (req, res) => {
   res.render("register", { title: "Login" });
 });
+
+app.post("/register", (req, res) => {
+    console.log(req.body);
+    res.send("Data received");
+});
+
+
+
+
+
+
+
+
+
+
+
+
 app.listen(PORT, () => {
     console.log(`Server is running on PORT ${PORT}`);
 });
