@@ -112,10 +112,6 @@ app.get("/hms", (req, res) => {
 app.post("/hms", (req, res) => {
   const { heart_rate, weight } = req.body;
 
-  healthData = {
-    heart_rate: parseInt(heart_rate),
-    weight: parseInt(weight),
-  };
   console.log("Heart Rate:", heart_rate);
   console.log("Weight:", weight);
 });
