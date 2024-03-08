@@ -98,21 +98,27 @@ app.post("/register", async (req, res) => {
     });
 
     await user.save();
-    res.render("register", {
-        title: "Register",
+    res.render("hms", {
+        title: "Health Monitoring System",
         error: "",
         success: "Account created successfully",
     });
 });
 
-
-
-app.post('/bpm', (req, res) => {
-    const { bpm_rate } = req.body;
-    console.log("Heart Rate:", bpm_rate);
+app.get("/hms", (req, res) => {
+  res.render("hms", { title: "Health Monitoring System" });
 });
 
+app.post("/hms", (req, res) => {
+  const { heart_rate, weight } = req.body;
 
+  healthData = {
+    heart_rate: parseInt(heart_rate),
+    weight: parseInt(weight),
+  };
+  console.log("Heart Rate:", heart_rate);
+  console.log("Weight:", weight);
+});
 
 
 

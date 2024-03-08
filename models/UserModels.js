@@ -44,6 +44,10 @@ const UserSchema = new Schema({
     type: String,
     required: false,
   },
+  heartRate: {
+    type: String,
+    required: false,
+  },
   emailAddress: {
     type: String,
     required: true,

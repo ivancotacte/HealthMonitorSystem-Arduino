@@ -1,35 +1,5 @@
 <div class="container d-flex justify-content-center align-items-center">
     <div class="row border rounded-2 p-3 bg-white shadow box-area">
-<form id="heartRateForm">
-    <label for="bpm_rate">Enter Heart Rate:</label>
-    <input type="number" id="bpm_rate" name="bpm_rate" required>
-    <button type="submit">Submit</button>
-</form>
+
     </div>
 </div>
-<script>
-    document.getElementById('heartRateForm').addEventListener('submit', async function(event) {
-        event.preventDefault();
-        
-        const bpm_rate = document.getElementById('bpm_rate').value;
-        
-        try {
-            const response = await fetch('/bpm', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ bpm_rate })
-            });
-
-            if (response.ok) {
-                console.log('Heart rate submitted successfully');
-                // Optionally, you can redirect the user or show a success message here
-            } else {
-                console.error('Failed to submit heart rate');
-            }
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    });
-</script>
