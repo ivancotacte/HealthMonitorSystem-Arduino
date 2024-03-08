@@ -29,10 +29,33 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
-
-
+app.get('/about-us', (req, res) => {
+    res.render('about-us', { title: 'About Us' });
+});
+app.get("/dashboard", (req, res) => {
+  res.render("dashboard", {
+    title: "Dashboard",
+    layout: "./layouts/dashboard_layout.ejs",
+  });
+});
 app.get('/login', (req, res) => {
     res.render('login', { title: 'Login' });
+});
+
+app.post("/login", async (req, res) => {
+    const { emailAddress, password } = req.body;
+
+    let UserEmail = await UserModels.findOne({ emailAddress });
+
+    if (!UserEmail || UserEmail.password !== password) {
+        return res.render("login", {
+            title: "Login",
+            error: "Invalid email or password",
+            success: "",
+        });
+    }
+
+    res.redirect("/dashboard");
 });
 
 app.get("/register", (req, res) => {
@@ -86,7 +109,7 @@ app.post("/register", async (req, res) => {
 
 app.post('/bpm', (req, res) => {
     const { bpm_rate } = req.body;
-    console.log(bpm_rate);
+    console.log("Heart Rate:", bpm_rate);
 });
 
 
