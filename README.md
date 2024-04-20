@@ -24,6 +24,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 * Load Sensor 50kg (https://www.makerlab-electronics.com/products/load-sensor-50kg)
 * Load Cell Amplifier HX711 (https://makerlab-electronics.com/products/load-cell-amplifier-hx711)
 * BreadBoard
+* Jumper Wire M/M
 
 | Components | Prices |
 | :---:  | :---: |
