@@ -23,6 +23,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 * ESP-01 ESP8266 WiFi Module (https://www.makerlab-electronics.com/products/esp8266-wifi-module) (NodeJS API)
 * Load Sensor 50kg (https://www.makerlab-electronics.com/products/load-sensor-50kg)
 * Load Cell Amplifier HX711 (https://makerlab-electronics.com/products/load-cell-amplifier-hx711)
+* BreadBoard
 
 | Components | Prices |
 | :---:  | :---: |
