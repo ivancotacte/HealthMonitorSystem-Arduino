@@ -21,7 +21,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 * SQL
 * C++
 * Visual Studio Code
-* Ardino Software
+* Arduino Software
 
 
 ## Components and Prices:
