@@ -15,7 +15,11 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 
 ## Software
 * PHP
-* 
+* HTML
+* Javascript
+* CSS
+* SQL
+* C++
 
 ## Components and Prices:
 * MAX30102 Heart Rate and Pulse Oximeter Sensor Module (https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black)
