@@ -30,7 +30,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 * 0.91 inch 128x32 IIC Oled LCD Blue LED Display Modules (https://www.makerlab-electronics.com/products/0-91-inch-128x32-iic-oled-lcd-blue-led-display-modules)
 * Buzzer (For Auditory alerting)
 * LED (For Visual alerting)
-* ESP-01 ESP8266 WiFi Module (https://www.makerlab-electronics.com/products/esp8266-wifi-module) (NodeJS API)
+* ESP-01 ESP8266 WiFi Module (https://www.makerlab-electronics.com/products/esp8266-wifi-module)
 * Load Sensor 50kg (https://www.makerlab-electronics.com/products/load-sensor-50kg)
 * Load Cell Amplifier HX711 (https://makerlab-electronics.com/products/load-cell-amplifier-hx711)
 * BreadBoard
