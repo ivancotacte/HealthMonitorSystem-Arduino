@@ -13,6 +13,10 @@ To enhance versatility, the system incorporates a Load Sensor 50kg along with th
 
 Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive solution for proactive health management, empowering users with actionable insights and prompt alerts for timely intervention.
 
+## Software
+* PHP
+* 
+
 ## Components and Prices:
 * MAX30102 Heart Rate and Pulse Oximeter Sensor Module (https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black)
 * Arduino Uno R3 Board (https://www.makerlab-electronics.com/products/arduino-uno)
