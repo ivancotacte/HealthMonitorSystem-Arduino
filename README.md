@@ -18,6 +18,7 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 <br>
 Well, you asked for it!
 </details>
+
 ## Software & Programming Language
 * PHP
 * HTML
