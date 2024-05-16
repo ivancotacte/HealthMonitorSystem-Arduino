@@ -13,10 +13,27 @@ To enhance versatility, the system incorporates a Load Sensor 50kg along with th
 
 Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive solution for proactive health management, empowering users with actionable insights and prompt alerts for timely intervention.
 
+## Version
 <details>
-<summary>How do I dropdown?</summary>
-<br> This is how you dropdown.
+<summary>Version 1.0.0</summary>
+
+1. Enhanced Heart Rate Monitoring:
+   - Improved the accuracy of heart rate monitoring through optimized calculations.
+   - Added a 20-second interval for printing heartbeat averages to the serial monitor, accompanied by a buzzer alert.
+   
+2. OLED Display Enhancements:
+   - Integrated bitmap logos to visually indicate the device's readiness and heartbeat detection.
+   - Enhanced user prompts for proper finger placement to ensure accurate usage.
+   
+3. System Timing and Intervals:
+   - Implemented a timer to initiate measurements upon detecting the first heartbeat, resetting appropriately when the finger is removed.
+   - Included elapsed time tracking for precise timing of heartbeat average printing and alerts.
+   
+4. Buzzer Alerts:
+   - Incorporated a buzzer alert triggered each time the heartbeat average is printed.
+   
 </details>
+
 
 ## Software & Programming Language
 * PHP
@@ -63,4 +80,4 @@ Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive sol
 * Mhigie D. Molon
 * Bryan Miguel G. Gomez
 * John Vincent E. Habig
-* Ivan A. Cotacte
+* Ivan A. Cotacte (Programmer)
