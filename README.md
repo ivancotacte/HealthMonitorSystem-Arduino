@@ -13,10 +13,9 @@ To enhance versatility, the system incorporates a Load Sensor 50kg along with th
 
 Overall, this Smart Portable Heart Rate Sensor System offers a comprehensive solution for proactive health management, empowering users with actionable insights and prompt alerts for timely intervention.
 
-<details open>
-<summary>Want to ruin the surprise?</summary>
-<br>
-Well, you asked for it!
+<details>
+<summary>How do I dropdown?</summary>
+<br> This is how you dropdown.
 </details>
 
 ## Software & Programming Language
