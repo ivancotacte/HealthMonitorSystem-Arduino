@@ -52,6 +52,7 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * SPST KCD11 Miniature Rocker Switch ([₱29](https://www.makerlab-electronics.com/products/spst-kcd11-miniature-rocker-switch-5pcs))
 * 3.7V 2000MAh Lithium Polymer LiPo ([₱138](https://www.lazada.com.ph/products/i4264911900-s23852767060.html?urlFlag=true&mp=1&tradePath=omItm&tradeOrderId=865368657384047&tradeOrderLineId=865368657484047&spm=spm%3Da2o42.order_details.item_title.1))
 * 1602 16x2 Character LCD Module Display HD44780 with I2C ([₱150](https://www.makerlab-electronics.com/products/16x2-lcd-display-i2c-white-on-blue))
+* FR4 Universal Protoboard PCB - Double Sided ([₱15](https://www.makerlab-electronics.com/products/fr4-universal-protoboard-pcb-double-sided))
 
 ## Group Members:
 - Sean Reeve B. Regala
