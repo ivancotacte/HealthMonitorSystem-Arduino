@@ -54,6 +54,7 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * 1602 16x2 Character LCD Module Display HD44780 with I2C ([₱150](https://www.makerlab-electronics.com/products/16x2-lcd-display-i2c-white-on-blue))
 * FR4 Universal Protoboard PCB - Double Sided ([₱15](https://www.makerlab-electronics.com/products/fr4-universal-protoboard-pcb-double-sided))
 * Lithium-ion 18650 Battery 3.7V 2200mAh  ([₱100](https://www.makerlab-electronics.com/products/pkcell-lithium-ion-18650-21700-battery-3-7v-true-rated-18650-2200mah-3000mah-3350mah-4500mah-rechargeable-battery-for-power-bank-flashlight-mini-fan))
+* Plastic Enclosure / Casing for Projects in Black ([₱80](https://www.lazada.com.ph/products/i1380034596-s5101438068.html?urlFlag=true&mp=1&tradePath=omItm&tradeOrderId=861713495484047&tradeOrderLineId=861713495584047&spm=spm%3Da2o42.order_details.item_title.1))
 
 ## Group Members:
 - Sean Reeve B. Regala
