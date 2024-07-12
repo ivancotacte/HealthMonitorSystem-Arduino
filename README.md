@@ -57,6 +57,7 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * Plastic Enclosure / Casing for Projects in Black ([₱80](https://www.lazada.com.ph/products/i1380034596-s5101438068.html?urlFlag=true&mp=1&tradePath=omItm&tradeOrderId=861713495484047&tradeOrderLineId=861713495584047&spm=spm%3Da2o42.order_details.item_title.1))
 * NodeMCU V3 ESP8266 ESP-12E ([₱160](https://www.makerlab-electronics.com/products/nodemcu-v3-esp8266-esp-12e))
 * 38 pins ESP32 WiFi IoT Development Board ([₱350](https://www.makerlab-electronics.com/products/30-pins-and-38-pins-esp32-wifi-iot-development-board))
+* Jumper Wire
 
 ## Group Members:
 - Sean Reeve B. Regala
