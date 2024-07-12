@@ -42,19 +42,6 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 - C++
 - Arduino IDE
 
-## Components and Prices:
-* MAX30102 Heart Rate and Pulse Oximeter Sensor Module ([₱149](https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black))
-* Arduino Uno R3 Board ([₱449](https://www.makerlab-electronics.com/products/arduino-uno))
-* OLED LCD 0.91" inch I2C LED Display Modules ([₱149](https://www.makerlab-electronics.com/products/0-91-inch-128x32-iic-oled-lcd-blue-led-display-modules))
-* Buzzer (For Auditory alerting) ([₱15](#))
-* LED (For Visual alerting) ([₱15](#))
-* ESP-01 ESP8266 WiFi Module ([₱89](https://www.makerlab-electronics.com/products/esp8266-wifi-module))
-* Load Sensor 50kg ([₱120.00](https://www.makerlab-electronics.com/products/load-sensor-50kg))
-* Load Cell Amplifier HX711 ([₱50.00](https://makerlab-electronics.com/products/load-cell-amplifier-hx711))
-* BreadBoard
-* Jumper Wire M/M
-* Push Button
-
 ## Components and Prices
 * MAX30102 Heart Rate and Pulse Oximeter Sensor Module ([₱149](https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black))
 * Load Sensor 50kg ([₱120.00](https://www.makerlab-electronics.com/products/load-sensor-50kg))
@@ -65,17 +52,6 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * SPST KCD11 Miniature Rocker Switch ([₱29](https://www.makerlab-electronics.com/products/spst-kcd11-miniature-rocker-switch-5pcs))
 * 3.7V 2000MAh Lithium Polymer LiPo ([₱138](https://www.lazada.com.ph/products/i4264911900-s23852767060.html?urlFlag=true&mp=1&tradePath=omItm&tradeOrderId=865368657384047&tradeOrderLineId=865368657484047&spm=spm%3Da2o42.order_details.item_title.1))
 * 1602 16x2 Character LCD Module Display HD44780 with I2C ([₱150](https://www.makerlab-electronics.com/products/16x2-lcd-display-i2c-white-on-blue))
-
-| Components | Prices |
-| :---:  | :---: |
-| MAX30102 | ₱149 |
-| Arduino Uno R3 Board | ₱449 |
-| OLED LCD 0.91″ inch l 1.3″ inch I2C LED Display Modules | ₱149 |
-| Buzzer | ₱15 |
-| LED | ₱15 |
-| ESP-01 ESP8266 WiFi Module | ₱89 |
-| Load Sensor 50kg x4 | ₱120.00 |
-| Load Cell Amplifier HX711 | ₱50.00 |
 
 ## Group Members:
 - Sean Reeve B. Regala
