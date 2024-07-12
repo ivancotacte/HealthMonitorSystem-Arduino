@@ -58,6 +58,7 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * NodeMCU V3 ESP8266 ESP-12E ([₱160](https://www.makerlab-electronics.com/products/nodemcu-v3-esp8266-esp-12e))
 * 38 pins ESP32 WiFi IoT Development Board ([₱350](https://www.makerlab-electronics.com/products/30-pins-and-38-pins-esp32-wifi-iot-development-board))
 * Jumper Wire
+* Male Header 40 Pin ([₱30](https://www.makerlab-electronics.com/products/hirel-female-male-header-40-pin-machined-pin))
 
 ## Group Members:
 - Sean Reeve B. Regala
