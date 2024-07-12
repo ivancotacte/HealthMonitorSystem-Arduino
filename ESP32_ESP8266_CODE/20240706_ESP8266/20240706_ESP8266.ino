@@ -8,7 +8,7 @@
 #include <EEPROM.h>
 
 #include <ESP8266WiFi.h>
-#include <ESP8266HTTPClient.h>
+#include <WiFiClientSecure.h>
 #include <BlynkSimpleEsp8266.h>
 #include <ArduinoOTA.h> 
 #include <WiFiManager.h>
@@ -19,9 +19,13 @@ char password[32];
 const int HX711_dout = D2;
 const int HX711_sck = D1;
 
-String serverName = "http://192.168.0.110/healthMonitorSystemAPI-PHP/api.php";
+const char* serverName = "bantaykalusugan.replit.app";
+String ServerPath = "/api.php";
+
+const int port = 443;
 
 WiFiManager wifiManager;
+WiFiClientSecure client;
 HX711_ADC LoadCell(HX711_dout, HX711_sck);
 
 const int calVal_calVal_eepromAdress = 0;
@@ -73,24 +77,23 @@ void setup() {
 }
 
 void SendWeighttoAPI(String weight) {
-      WiFiClient client;
-      HTTPClient http;
-      
-      String httpRequestData = "weight=" + weight + "&action=insertWeight";
-      http.begin(client, serverName);
-      http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-      
-      int httpResponseCode = http.POST(httpRequestData);
-      
-      if (httpResponseCode > 0) {
-          Serial.print("HTTP Response code: ");
-          Serial.println(httpResponseCode);
-      } else {
-          Serial.print("Error code: ");
-          Serial.println(httpResponseCode);
-      }
-      
-      http.end();
+  client.setInsecure();
+  
+  if (client.connect(serverName, port)) {
+    Serial.println("Connection Successful");
+
+    String postData = "weight=" + weight + "&action=insertWeight";
+
+    client.println("POST " + ServerPath + " HTTP/1.1");
+    client.println("Host: " + String(serverName));
+    client.println("Content-Type: application/x-www-form-urlencoded");
+    client.print("Content-Length: ");
+    client.println(postData.length());
+    client.println();
+    client.println(postData);
+
+    client.stop();
+  }
 }
 
 void loop() {
@@ -100,7 +103,7 @@ void loop() {
   const int serialPrintInterval = 0;
   static float lastWeight = 0;
   static unsigned long stableStartTime = 0;
-  const unsigned long stableThreshold = 3000;
+  const unsigned long stableThreshold = 2000;
 
   if (LoadCell.update()) newDataReady = true;
 
@@ -146,4 +149,3 @@ void loop() {
     Serial.println("Tare complete");
   }
 }
-

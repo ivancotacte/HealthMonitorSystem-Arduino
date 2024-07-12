@@ -37,13 +37,10 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 
 ## Software & Programming Language
 - PHP
-- HTML
-- Javascript
-- CSS
+- HTML / Javascript / CSS
 - SQL
 - C++
-- Visual Studio Code
-- Arduino Software
+- Arduino IDE
 
 ## Components and Prices:
 * MAX30102 Heart Rate and Pulse Oximeter Sensor Module ([₱149](https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black))
@@ -57,6 +54,17 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * BreadBoard
 * Jumper Wire M/M
 * Push Button
+
+## Components and Prices
+* MAX30102 Heart Rate and Pulse Oximeter Sensor Module ([₱149](https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black))
+* Load Sensor 50kg ([₱120.00](https://www.makerlab-electronics.com/products/load-sensor-50kg))
+* Load Cell Amplifier HX711 ([₱50.00](https://makerlab-electronics.com/products/load-cell-amplifier-hx711))
+* Buzzer (For Auditory alerting) ([₱15](#))
+* LED (For Visual alerting) ([₱15](#))
+* Type C Micro USB 5V 1A 18650 TP4056 Lithium Battery Charger Module Charging Board With Protection ([₱30](https://www.makerlab-electronics.com/products/type-c-micro-usb-5v-1a-18650-tp4056-lithium-battery-charger-module-charging-board-with-protection))
+* SPST KCD11 Miniature Rocker Switch ([₱29](https://www.makerlab-electronics.com/products/spst-kcd11-miniature-rocker-switch-5pcs))
+* 3.7V 2000MAh Lithium Polymer LiPo ([₱138](https://www.lazada.com.ph/products/i4264911900-s23852767060.html?urlFlag=true&mp=1&tradePath=omItm&tradeOrderId=865368657384047&tradeOrderLineId=865368657484047&spm=spm%3Da2o42.order_details.item_title.1))
+* 1602 16x2 Character LCD Module Display HD44780 with I2C ([₱150](https://www.makerlab-electronics.com/products/16x2-lcd-display-i2c-white-on-blue))
 
 | Components | Prices |
 | :---:  | :---: |
