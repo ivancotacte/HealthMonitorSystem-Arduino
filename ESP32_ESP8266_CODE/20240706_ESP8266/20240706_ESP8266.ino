@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL6swIxX_Aq"
-#define BLYNK_TEMPLATE_NAME "ESP32 Capstone Project"
-#define BLYNK_AUTH_TOKEN "D8hTCLlstXEbaofvdyV7iItHpIEj5DK1"
+#define BLYNK_TEMPLATE_NAME "ESP32 Health Monitoring System"
+#define BLYNK_AUTH_TOKEN "kPlQEtx23LIunXkUMBqImgQu5o5cK9VR"
 
 #define BLYNK_PRINT Serial
 
@@ -18,6 +18,7 @@ char password[32];
 
 const int HX711_dout = D2;
 const int HX711_sck = D1;
+const int buzzerPin = D3;
 
 const char* serverName = "bantaykalusugan.replit.app";
 String ServerPath = "/api.php";
@@ -33,6 +34,9 @@ unsigned long t = 0;
 
 void setup() {
   Serial.begin(115200); 
+
+  pinMode(buzzerPin, OUTPUT);
+  digitalWrite(buzzerPin, LOW); 
 
   wifiManager.autoConnect("Group 10 - AutoConnectAP");
  
@@ -93,6 +97,10 @@ void SendWeighttoAPI(String weight) {
     client.println(postData);
 
     client.stop();
+
+    digitalWrite(buzzerPin, HIGH);
+    delay(1000);
+    digitalWrite(buzzerPin, LOW);
   }
 }
 

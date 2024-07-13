@@ -20,7 +20,7 @@ int8_t heartRateValid;
 char ssid[32];
 char password[32];
 
-const char* serverName = "bantaykalusugan.replit.app";
+const char* serverName = "bantaykalusugantest.replit.app";
 String ServerPath = "/api.php";
 
 const int port = 443;
@@ -101,7 +101,6 @@ void sendAPI(String heartRate, String SPO2) {
     client.println();
     client.println(postData);
 
-    // Check for server response
     bool error = false;
     while (client.connected()) {
       String line = client.readStringUntil('\n');
