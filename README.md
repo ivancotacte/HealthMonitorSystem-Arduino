@@ -59,6 +59,7 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 * 38 pins ESP32 WiFi IoT Development Board ([₱350](https://www.makerlab-electronics.com/products/30-pins-and-38-pins-esp32-wifi-iot-development-board))
 * Jumper Wire
 * Male Header 40 Pin ([₱30](https://www.makerlab-electronics.com/products/hirel-female-male-header-40-pin-machined-pin))
+* MT3608 2A Max DC-DC Step Up Booster Power Module ([₱30](https://www.makerlab-electronics.com/products/mt3608-2a-max-dc-dc-step-up-booster-power-module))
 
 ## Group Members:
 - Sean Reeve B. Regala
