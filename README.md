@@ -29,6 +29,46 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 - Online dashboard to view and update health data
 - AI-powered response in email and SMS alerts for enhanced health guidance
 
+## Getting Started:
+To get started with the Smart Portable Heart Rate Sensor System, follow these steps:
+
+### Prerequisites:
+- [XAMPP](https://www.apachefriends.org/index.html) installed on your machine
+- Arduino IDE installed on your machine
+
+### Setup:
+1. **Clone the Repository:**
+    ```sh
+    git clone https://github.com/ivancotacte/HealthMonitorSystemAPI-PHP.git
+    ```
+2. **Navigate to the Project Directory:**
+    ```sh
+    cd HealthMonitorSystemAPI-PHP
+    ```
+3. **Start XAMPP:**
+   - Open XAMPP Control Panel
+   - Click `Start` for Apache and MySQL
+
+4. **Configure the Database:**
+   - Open your web browser and go to `http://localhost/phpmyadmin`
+   - Create a new database named `health_monitor`
+   - Import the SQL file located in the `database` folder of the cloned repository
+
+5. **Update Database Configuration:**
+   - Open `config.php` file in the project directory
+   - Update the database credentials (host, username, password, database name) to match your local setup
+
+### Running the Project:
+1. **Upload Arduino Code:**
+   - Connect your Arduino to the computer
+   - Open the Arduino IDE
+   - Load the sketch from the `arduino` folder in the cloned repository
+   - Upload the code to the Arduino
+
+2. **Access the Web Interface:**
+   - Open your web browser and go to `http://localhost/HealthMonitorSystemAPI-PHP`
+   - Register a new user and start monitoring your health data
+
 ## Software & Programming Language:
 - PHP
 - HTML / Javascript / CSS
