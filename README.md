@@ -7,8 +7,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry.svg)](https://github.com/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry.svg)](https://github.com/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/ivancotacte/HealthMonitorSystem-Arduino.svg)](https://github.com/ivancotacte/HealthMonitorSystem-Arduino/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ivancotacte/HealthMonitorSystem-Arduino.svg)](https://github.com/ivancotacte/HealthMonitorSystem-Arduino/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 </div>
