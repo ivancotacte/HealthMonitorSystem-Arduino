@@ -6,6 +6,15 @@
 
 <div align="center">
 
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry.svg)](https://github.com/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry.svg)](https://github.com/dnachavez/BantaySugbu-2024-Cebu-Interschool-Hackathon-Entry/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+</div>
+
+---
+
 ## Description:
 Welcome to the repository for our capstone project, the Smart Portable Heart Rate Sensor System. This cutting-edge solution is designed to monitor heart rate and pulse oximetry in real-time, providing users with vital health information on-the-go. Utilizing advanced biometric sensor technology, including the MAX30102 Heart Rate and Pulse Oximeter Sensor Module, our system ensures accurate and reliable data collection.
 
