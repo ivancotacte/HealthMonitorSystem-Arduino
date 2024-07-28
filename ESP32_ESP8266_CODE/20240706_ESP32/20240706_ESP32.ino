@@ -9,6 +9,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <WiFi.h>
+#include <ArduinoOTA.h>
 #include <WiFiClientSecure.h>
 #include <WiFiManager.h>
 
@@ -20,7 +21,7 @@ int8_t heartRateValid;
 char ssid[32];
 char password[32];
 
-const char* serverName = "bantaykalusugantest.replit.app";
+const char* serverName = "bantaykalusugan.replit.app";
 String ServerPath = "/api.php";
 
 const int port = 443;
@@ -82,6 +83,7 @@ void setup() {
   }
 
   particleSensor.sensorConfiguration(60, SAMPLEAVG_8, MODE_MULTILED, SAMPLERATE_400, PULSEWIDTH_411, ADCRANGE_16384);
+  ArduinoOTA.begin();
 }
 
 void sendAPI(String heartRate, String SPO2) {
@@ -154,11 +156,14 @@ void updateLCD() {
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("HR: " + String(heartRate));
+  Blynk.virtualWrite(V2, heartRate);
   lcd.setCursor(0, 1);
   lcd.print("SpO2: " + String(SPO2));
+  Blynk.virtualWrite(V3, SPO2);
 }
 
 void loop() {
+  ArduinoOTA.handle();
   particleSensor.heartrateAndOxygenSaturation(&SPO2, &SPO2Valid, &heartRate, &heartRateValid);
 
   long irValue = particleSensor.getIR();
