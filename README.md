@@ -20,14 +20,14 @@
 ## 📋 Description:
 Welcome to the repository for our capstone project, the Smart Portable Heart Rate Sensor System. This cutting-edge solution is designed to monitor heart rate and pulse oximetry in real-time, providing users with vital health information on-the-go. Utilizing advanced biometric sensor technology, including the MAX30102 Heart Rate and Pulse Oximeter Sensor Module, our system ensures accurate and reliable data collection.
 
-### Key Features:
-- Real-time monitoring of heart rate and pulse oximetry
-- Email and SMS alerts for instant health response
-- Auditory alerts through buzzer and visual notifications via LED
-- Additional health monitoring capabilities including weight measurement
-- User registration via website
-- Online dashboard to view and update health data
-- AI-powered response in email and SMS alerts for enhanced health guidance
+### 🌟 Key Features:
+- **Real-time Monitoring:** Continuously track your heart rate and pulse oximetry.
+- **Instant Alerts:** Receive email and SMS notifications for immediate health responses.
+- **Auditory and Visual Alerts:** Stay informed with buzzer sounds and LED indicators.
+- **Comprehensive Health Tracking:** Additional features include weight measurement.
+- **User Registration:** Easily sign up and manage your profile through our website.
+- **Online Dashboard:** Access and update your health data anytime, anywhere.
+- **AI-Powered Assistance:** Benefit from enhanced health guidance with GPT-4Mini in email and SMS alerts.
 
 ## 🚀 Getting Started:
 To get started with the Smart Portable Heart Rate Sensor System, follow these steps:
