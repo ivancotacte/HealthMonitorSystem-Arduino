@@ -17,7 +17,7 @@
 
 ---
 
-## Description:
+## 📋 Description:
 Welcome to the repository for our capstone project, the Smart Portable Heart Rate Sensor System. This cutting-edge solution is designed to monitor heart rate and pulse oximetry in real-time, providing users with vital health information on-the-go. Utilizing advanced biometric sensor technology, including the MAX30102 Heart Rate and Pulse Oximeter Sensor Module, our system ensures accurate and reliable data collection.
 
 ### Key Features:
@@ -29,7 +29,7 @@ Welcome to the repository for our capstone project, the Smart Portable Heart Rat
 - Online dashboard to view and update health data
 - AI-powered response in email and SMS alerts for enhanced health guidance
 
-## Getting Started:
+## 🚀 Getting Started:
 To get started with the Smart Portable Heart Rate Sensor System, follow these steps:
 
 ### Prerequisites:
@@ -69,14 +69,14 @@ To get started with the Smart Portable Heart Rate Sensor System, follow these st
    - Open your web browser and go to `http://localhost/HealthMonitorSystemAPI-PHP`
    - Register a new user and start monitoring your health data
 
-## Software & Programming Language:
+## 💻 Software & Programming Language:
 - PHP
 - HTML / Javascript / CSS
 - SQL
 - C++
 - Arduino IDE
 
-## Components and Prices:
+## 🛠️ Components and Prices:
 | Component                                                                                                             | Price (₱) | Link                                                                                                                                                                                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | MAX30102 Heart Rate and Pulse Oximeter Sensor Module                                                                  | 149       | [Link](https://www.makerlab-electronics.com/products/max30102-heart-rate-and-pulse-oximeter-sensor-module-black)                                                                                                                                                                 |
@@ -97,7 +97,7 @@ To get started with the Smart Portable Heart Rate Sensor System, follow these st
 | Male Header 40 Pin                                                                                                    | 30        | [Link](https://www.makerlab-electronics.com/products/hirel-female-male-header-40-pin-machined-pin)                                                                                                                                                                              |
 | MT3608 2A Max DC-DC Step Up Booster Power Module                                                                      | 30        | [Link](https://www.makerlab-electronics.com/products/mt3608-2a-max-dc-dc-step-up-booster-power-module)                                                                                                                                                                          |
 
-## Group Members:
+## 👥 Group Members:
 - Ivan A. Cotacte
 - Sean Reeve B. Regala
 - Johann Sebastian Kyle M. Manapsal
